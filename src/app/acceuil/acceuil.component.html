@@ -1,0 +1,63 @@
+<header class="acc">
+  <div class="container">
+    <h1>Entrez dans un monde magique 🪄 de mode 👗 avec<br> Nour collections <br> ₊˚ ☁️⋅♡🪐༘⋆ </h1>
+    <p>✨Explorez des collections élégantes et enchantées qui feront briller votre style. ✨</p>
+    <p>✨ Collections de marques importées et tunisiennes ✨</p>
+    <p>🌨️ 100 % hiver 🌨️</p>
+  </div>
+</header>
+
+<div class="slider">
+  <div class="slider2" [style.transform]="'translateX(-' + index * 100 + '%)'">
+    <div class="slide">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=2251868557789630" scrolling="no" frameborder="0" allow="autoplay;" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="slide">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=591941944802292137" scrolling="no"></iframe>
+    </div>
+    <div class="slide">
+      <iframe src="https://assets.pinterest.com/ext/embed.html?id=41376890328439675" scrolling="no"></iframe>
+    </div>
+    <div class="slide">
+      <img src="https://i.pinimg.com/736x/6a/ad/b7/6aadb73d9f2eb6cec3c5d75c365e6cc3.jpg" alt="Album image 3" />
+    </div>
+  </div>
+  <button class="prev" (click)="prevSlide()">&#10094;</button>
+  <button class="next" (click)="nextSlide()">&#10095;</button>
+</div>
+
+
+<main>
+  <section class="quinous">
+    <h2>Qui sommes-nous ?</h2>
+    <img class="img1" src="https://cdn-icons-png.flaticon.com/128/476/476698.png" alt="nous">
+    <p>Nous sommes un lieu magique où vous trouverez des outfits qui ajoutent une touche féerique à votre quotidien.</p>
+  </section>
+
+  <section class="us">
+    <h2>Pourquoi choisir notre univers ?</h2>
+    <img src="https://cdn-icons-png.flaticon.com/128/12963/12963686.png" alt="choisi" class="img1">
+    <div class="benefits">
+      <div class="benefit">
+        <img src="https://as2.ftcdn.net/v2/jpg/01/84/32/81/1000_F_184328167_2hCB9Gbv25HwuSd1uWJpFii1hllBaqmT.jpg" alt="Qualité">
+        <h3>Produits enchantés</h3>
+        <p>Nos produits sont soigneusement sélectionnés pour leur beauté et leur élégance magique.</p>
+      </div>
+      <div class="benefit">
+        <img src="https://img.icons8.com/ios/50/000000/price-tag.png" alt="Prix compétitifs">
+        <h3>Prix magiques</h3>
+        <p>Nous proposons des prix irrésistibles pour une gamme de produits féeriques.</p>
+      </div>
+      <div class="benefit">
+        <img src="https://img.icons8.com/ios/50/000000/delivery.png" alt="Livraison">
+        <h3>Livraison féerique</h3>
+        <p>Votre commande arrive rapidement, prête à illuminer votre vie.</p>
+      </div>
+      <div class="benefit">
+        <img src="https://cdn-icons-png.flaticon.com/128/2706/2706907.png" alt="Support client">
+        <h3>Support Client </h3>
+        <p>Notre équipe est disponible pour répondre à toutes vos questions et rendre votre expérience satisfaite .</p>
+      </div>
+    </div>
+  </section>
+</main>

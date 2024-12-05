@@ -1,0 +1,49 @@
+<div class="a1">
+    <h2>Nous aimerions avoir de vos nouvelles ! 💌</h2>
+
+    <form (submit)="onSubmit(name.value, email.value, subject.value, details.value)">
+      <div class="b1">
+        <label for="name">Votre Prénom ou Pseudo</label>
+        <input type="text" id="name" name="name" placeholder="Entrez votre nom ou pseudo" #name required />
+      </div>
+  
+      <div class="b1">
+        <label for="email">Votre Email 💌</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre email" #email required />
+      </div>
+  
+      <div class="b1">
+        <label for="subject">Sujet de votre message</label>
+        <input type="text" id="subject" name="subject" placeholder="Entrez le sujet" #subject required />
+      </div>
+  
+      <div class="b1">
+        <label for="details">Dites-nous ce qui vous préoccupe 🤔</label>
+        <textarea id="details" name="details" placeholder="Écrivez votre message..." #details required></textarea>
+      </div>
+  
+      <button type="submit" class="c1">Envoyer Votre Message</button>
+    </form>
+  
+  
+    <div class="message">
+      {{ message }}
+    </div>
+  
+    <div class="e1">
+      <h3>Nous contacter autrement ?</h3>
+      <p>
+        Pour toute question ou besoin de réclamation, vous pouvez nous joindre via nos réseaux sociaux ou
+        notre infoline ci-dessous :
+      </p>
+  
+      <div class="f1">
+        <a href="https://www.facebook.com" target="_blank" class="g1">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" class="g1">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank" class="g1">Twitter</a>
+      </div>
+  
+      <p>Infoline : <strong>+216 58 996 699</strong></p>
+    </div>
+  </div>
+  

@@ -1,0 +1,22 @@
+<div class="c1">
+  <div class="c2">
+    <h2>Connexion <br> 🔓</h2>
+    <form (submit)="onSubmit(email.value, password.value)">
+      <mat-form-field class="example-full-width">
+        <mat-label>Adresse Email 📧</mat-label>
+        <input matInput type="email" id="email" placeholder="Entrez votre email" #email required />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Mot de passe 👀</mat-label>
+        <input matInput type="password" id="password" placeholder="Entrez votre mot de passe" #password required />
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit" class="bt">Se connecter</button>
+    </form>
+
+    <div class="message">
+      {{ message }}
+    </div>
+  </div>
+</div>

@@ -1,36 +1,27 @@
-# E-Commerce-Femme
-An Angular 18 project crafted with love, creativity, and a dash of my vibes  ; Nour Vibes 🤩
+# Tp4Angualr
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
 
-An Angular 18 project crafted with love, creativity, and a dash of Nour's vibes. This project highlights the power and flexibility of Angular 18, designed with clean architecture, modern features, and interactive elements to deliver a seamless user experience.
+## Development server
 
----
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## 🛠️ Features
+## Code scaffolding
 
-- **Angular 18**: Built using the latest version of Angular, offering cutting-edge features, better performance, and scalability.
-- **Fully Responsive**: Optimized for both mobile and desktop viewing, ensuring a fluid and consistent experience across all screen sizes.
-- **Creative UI/UX**: An interactive and creative design inspired by Nour’s vibes.
-- **Modular Architecture**: The application follows Angular’s best practices with a modular structure for easy scalability.
-- **State Management**: Uses NgRx (or another state management solution) to manage state effectively.
-- **Lazy Loading**: Implements lazy loading for better performance and faster initial load times.
-- **Internationalization (i18n)**: Supports multiple languages for a broader audience.
-- **Testing**: Unit and integration tests using Angular’s testing framework.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
----
+## Build
 
-## 🚀 Installation
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### Prerequisites
+## Running unit tests
 
-Before you begin, ensure you have the following tools installed:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- **Node.js** (version 18.x or higher)
-- **Angular CLI** (latest version)
+## Running end-to-end tests
 
-### Steps
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-1. **Clone the repository**:
+## Further help
 
-   ```bash
-   git clone https://github.com/Nour4git/E-Commerce-Femme.git
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
