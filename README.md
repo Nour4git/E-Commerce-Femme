@@ -1,6 +1,6 @@
 # E-Commerce-Femme 
 
-An Angular 18 project crafted with love, creativity, and a dash of Nour's vibes. This project highlights the power and flexibility of Angular 18, designed with clean architecture, modern features, and interactive elements to deliver a seamless user experience.🤩
+A small Angular 18 project crafted with love, creativity, and a dash of Nour's vibes. This project highlights the power and flexibility of Angular 18, designed with clean architecture, modern features, and interactive elements to deliver a seamless user experience.🤩
 
 ---
 
