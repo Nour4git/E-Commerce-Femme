@@ -25,3 +25,11 @@ For questions, feedback, or collaboration:
 
 
 Thank you for exploring this E-commerce Project. I hope you enjoy it as much as I enjoyed building it! ✨
+
+
+
+## 🔥 How to Clone This Repository  
+
+1. Copy the following command to clone the repository:
+
+git clone https://github.com/Nour4git/E-commerce-Femme.git
