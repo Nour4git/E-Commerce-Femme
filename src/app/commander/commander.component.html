@@ -1,0 +1,27 @@
+<div class="c1">
+  <div class="c2">
+    <h2>Merci pour votre confiance ! ❤️</h2>
+    <form (submit)="onSubmit(num.value, Adr.value, info.value)">
+      <mat-form-field class="example-full-width">
+        <mat-label>Adresse Complète Madame/Mademoiselle 😊</mat-label>
+        <input matInput id="Adr" name="email" placeholder="Adresse complète" #Adr />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Numéro de Téléphone 🤳</mat-label>
+        <input matInput type="tel" id="num" name="num" placeholder="Entrez votre numéro" #num />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Taille / Couleur / Quantité 😃</mat-label>
+        <textarea matInput id="info" name="info" placeholder="Taille, couleur, quantité" #info></textarea>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit" class="bt">Commander</button>
+    </form>
+
+    <div class="message">
+      {{ message }}
+    </div>
+  </div>
+</div>

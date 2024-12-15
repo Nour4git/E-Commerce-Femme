@@ -1,0 +1,12 @@
+{
+  "routes": [
+    "/",
+    "/cant",
+    "/commander",
+    "/connex",
+    "/insc",
+    "/manteau",
+    "/outf",
+    "/sac"
+  ]
+}
